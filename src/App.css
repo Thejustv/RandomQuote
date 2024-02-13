@@ -29,11 +29,12 @@ button{
   height:50px;
   background-color: var(--color);
   color: white;
-  border-radius: 3px;
+  border-radius: 8px;
   border: 1px solid var(--color);
 }
 #text{
   font-size: 25px;
+  font-weight: 500;
 }
 #author{
   font-size: 20px;

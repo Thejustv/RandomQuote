@@ -33,7 +33,7 @@ function App() {
 
   return (
       <div id="quote-box">
-        <div id="text"><FontAwesomeIcon icon={faQuoteLeft} size="lg"/> {quote.content} </div>
+        <div id="text"><FontAwesomeIcon icon={faQuoteLeft} size="md"/> {quote.content} </div>
         <div id="author">- {quote.author}</div>
         <div id="bottom">
           <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_top"><FontAwesomeIcon icon={faSquareTwitter} size="2xl"/></a>
